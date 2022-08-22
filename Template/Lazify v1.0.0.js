@@ -1,0 +1,1 @@
+!function(a){a.fn.lazyify=function(){return this.each(function(){var t=a(this),src=t.attr('data-src');t.attr('src',src);t.on('load',function(){t.addClass('lazy-ify')})})}}(jQuery);
